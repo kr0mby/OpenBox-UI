@@ -15,7 +15,7 @@ class App extends Component {
         <div className={styles.App}>
           <Route path="/join-game" component={JoinGame}/>
           <Route path="/landing-page" exact component={LandingPage}/>
-          <Route path="/"  exact component={CommingSoon}/>
+          <Route path="/" component={CommingSoon}/>
           <OpenBoxLogo/>
         </div>
       </BrowserRouter>
