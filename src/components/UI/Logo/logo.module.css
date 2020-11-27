@@ -1,0 +1,35 @@
+.Logo {
+    position: fixed;
+    top: 443px;
+    left: 50px;
+    color: white;
+    width: 525px;
+    height: 485px;
+    z-index: -1;
+}
+
+@media (min-width: 1440px) {
+    .Logo {
+        top: 376px;
+        left: 720px;
+        width: 944px;
+        height: 873px;
+    }
+}
+@media (min-width: 1920px) {
+    .Logo {
+        top: 249px;
+        left: 1206px;
+        width: 1021px;
+        height: 944px;
+    }
+}
+
+@media (min-width: 3840px) {
+    .Logo {
+        top: 535px;
+        left: 2297px;
+        width: 2246px;
+        height: 2076px;
+    }
+}

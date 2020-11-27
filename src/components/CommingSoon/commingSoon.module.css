@@ -1,0 +1,89 @@
+.CommingSoonContainer {
+    grid-row: 3 / 6;
+    grid-column: 2/ 6;
+    justify-self: center;
+    align-content: center;
+    animation: floating 4s ease-in-out infinite;
+
+
+}
+p {
+    font-family: 'Shrikhand', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+
+} 
+
+.Message {
+    display: flex;
+    border: rgb(255, 255, 255) 4px solid;
+    margin: 10px auto;    
+    justify-content: center;
+    width: 60%;
+    padding: 10px;
+
+}
+.dot1, .dot2, .dot3 {
+    padding: 0px 5px;
+    
+}
+
+.dot1 {
+    animation: fade 2s infinite;
+}
+
+.dot2 {
+    animation: fade 2s infinite;
+    animation-delay: 0.4s;
+}
+.dot3 {
+    animation: fade 2s infinite;
+    animation-delay: 0.8s;
+
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }    
+    100% {
+        opacity: 0;
+    }
+}
+
+
+h1 {
+    font-size: 6vw;
+    text-shadow: 0.25vw 0.25vw #172f7e;
+}
+
+@keyframes floating {
+    0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-40px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+
+@media screen and (max-width: 812px) {
+
+        h1 {
+            font-size: 50px;
+            text-shadow: 0.5vw 0.5vw #172f7e;
+        }
+        p {
+            font-size: 20px;
+        }
+        .Message {
+            width: 100%;
+        }
+
+}

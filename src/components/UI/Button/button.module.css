@@ -1,0 +1,25 @@
+.ButtonContainer {
+    display: inline-block;
+    text-align: center;
+}
+
+.ButtonV1 {
+    font-family: 'Shrikhand', cursive;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #DC0073;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0 9px #88114F;
+    outline: none;
+    transition: translateY 1s;
+}
+.ButtonV1:hover {
+    background-color: #f1238e;
+}
+.ButtonV1:active {
+    border: none;
+    box-shadow: 0 5px #5e0b36;
+    transform: translateY(4px);
+  }
