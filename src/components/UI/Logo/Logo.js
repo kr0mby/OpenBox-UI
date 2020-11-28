@@ -5,7 +5,7 @@ import styles from './logo.module.css'
 
 const OpenBoxLogo = () => {
     return (
-        <div>
+        <div className={styles.LogoContainer}>
             <img className={styles.Logo} src={Logo}/>
         </div>
     )
